@@ -10,3 +10,6 @@ The built image contains the full texlive distribution along with some tools to 
 * qpdf
 * mercurial
 * git
+* python-pygments (for syntax highlighting)
+* libreoffice 6.0 (from PPA)
+
