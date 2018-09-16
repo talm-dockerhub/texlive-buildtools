@@ -7,7 +7,7 @@ echo -e "$HOST_IP\t$HOST_DOMAIN" >> /etc/hosts
 
 # Execute chained command
 CHAIN="$1"
-if [ -x "${CHAIN}" ] ; then
+if command -v "${CHAIN}" ; then
   shift
   exec "${CHAIN}" "$@"
 fi
